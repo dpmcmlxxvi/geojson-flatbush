@@ -1,6 +1,6 @@
 {
   "name": "geojson-flatbush",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "GeoJSON implementation of Flatbush - A really fast static spatial index.",
   "main": "geojson-flatbush.js",
   "module": "index.js",
