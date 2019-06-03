@@ -53,16 +53,22 @@ const newindex = GeojsonFlatbush.from(index.data);
 
 ## USAGE
 
-The API is documented at the [documentation page][geojson-flatbush-docs]. The
-following methods are available:
+For a full listing of all available API options see the
+[documentation page][geojson-flatbush-docs]. The following methods are
+available:
 
 ```javascript
-add       // Add GeoJSON to index
-finish    // Perform indexing
-load      // Load feature collection or array
-neighbors // Find k-nearest neighbors from point
-search    // Find features within bounding box
-from      // Create new index from raw data
+const index = new GeojsonFlatbush(numItems, [nodeSize], [ArrayType])
+  // numItems: Number of items to index
+  // nodeSize: Size of the tree node (16 by default)
+  // ArrayType: the array type used for coordinates storage (Float64Array by default)
+
+index.add(GeoJSON)                       // Add GeoJSON to index
+index.finish()                           // Perform indexing
+index.load(FeatureCollection)            // Load feature collection or array
+index.neighbors(point, k)                // Find k-nearest neighbors from point
+index.search(GeoJSON, FeatureCollection) // Find features within bounding box
+GeojsonFlatbush.from(index.data)         // Create new index from raw data
 ```
 
 ## TIPS
