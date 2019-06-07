@@ -104,7 +104,7 @@ npm test
 
 Copyright (c) 2019 Daniel Pulido <mailto:dpmcmlxxvi@gmail.com>
 
-Source code is released under the [MIT License](http://opensource.org/licenses/ISC).
+Source code is released under the [ISC License](http://opensource.org/licenses/ISC).
 
 [flatbush-github]: https://github.com/mourner/flatbush
 
