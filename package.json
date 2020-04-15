@@ -68,7 +68,7 @@
   },
   "dependencies": {
     "@turf/turf": "5.1.6",
-    "flatbush": "3.2.1"
+    "flatbush": "3.3.0"
   },
   "remarkConfig": {
     "plugins": [
