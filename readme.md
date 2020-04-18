@@ -3,7 +3,7 @@
 [![build](https://travis-ci.org/dpmcmlxxvi/geojson-flatbush.svg?branch=master)](https://travis-ci.org/dpmcmlxxvi/geojson-flatbush)
 [![coverage](https://img.shields.io/coveralls/dpmcmlxxvi/geojson-flatbush.svg)](https://coveralls.io/r/dpmcmlxxvi/geojson-flatbush?branch=master)
 [![npm](https://badge.fury.io/js/geojson-flatbush.svg)](https://badge.fury.io/js/geojson-flatbush)
-[![code](https://api.codacy.com/project/badge/Grade/698be81064804bb2b03b7f33f7471924)](https://www.codacy.com/app/dpmcmlxxvi/geojson-flatbush?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dpmcmlxxvi/geojson-flatbush&amp;utm_campaign=Badge_Grade) [![Greenkeeper badge](https://badges.greenkeeper.io/dpmcmlxxvi/geojson-flatbush.svg)](https://greenkeeper.io/)
+[![code](https://api.codacy.com/project/badge/Grade/698be81064804bb2b03b7f33f7471924)](https://www.codacy.com/app/dpmcmlxxvi/geojson-flatbush?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dpmcmlxxvi/geojson-flatbush&amp;utm_campaign=Badge_Grade) 
 
 GeoJSON implementation of [Flatbush][flatbush-github] — A really fast **static
 spatial index** for 2D points and rectangles in JavaScript.
